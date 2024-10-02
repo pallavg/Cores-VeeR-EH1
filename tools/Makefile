@@ -33,7 +33,8 @@ VCS = vcs
 VERILATOR = verilator
 VLOG = qverilog
 RIVIERA = riviera
-GCC_PREFIX = riscv64-unknown-elf
+#GCC_PREFIX = riscv64-unknown-elf
+GCC_PREFIX = riscv32-swerv-elf
 BUILD_DIR = snapshots/${snapshot}
 TBDIR = ${RV_ROOT}/testbench
 
