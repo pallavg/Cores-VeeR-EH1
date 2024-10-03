@@ -84,7 +84,7 @@ VERILATOR_MAKE_FLAGS = OPT_FAST="-Os"
 all: clean verilator
 
 clean:
-	rm -rf *.log *.s *.hex *.dis *.tbl irun* vcs* simv* *.map snapshots veer* \
+	rm -rf *.log *.s *.hex *.dis *.tbl irun* vcs* simv* *.map veer* \
 	verilator* *.exe obj* *.o ucli.key vc_hdrs.h csrc *.csv \
 	work dataset.asdb  library.cfg
 
