@@ -86,7 +86,7 @@ all: clean verilator
 clean:
 	rm -rf *.log *.s *.hex *.dis *.tbl irun* vcs* simv* *.map veer* \
 	verilator* *.exe obj* *.o ucli.key vc_hdrs.h csrc *.csv \
-	work dataset.asdb  library.cfg
+	work dataset.asdb  library.cfg xrun.history
 
 # If define files do not exist, then run veer.config.
 ${BUILD_DIR}/defines.h :
